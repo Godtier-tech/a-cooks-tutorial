@@ -17,14 +17,19 @@ import scripts.data.Vars;
 import java.awt.*;
 import java.util.Arrays;
 
-@TribotScriptManifest(name = "A Cooks Tutorial", author = "SkrrtNick", category = "Quest", description = "Completes Cooks Assistant")
+@TribotScriptManifest(
+        name = "A Cooks Tutorial",
+        author = "SkrrtNick",
+        category = "Quest",
+        description = "Completes Cooks Assistant"
+)
 public class ACooksTutorial implements TribotScript {
 
     @Override
     public void configure(@NotNull ScriptConfig config) {
         config.setRandomsAndLoginHandlerEnabled(true);
         config.setBreakHandlerEnabled(true);
-    }
+    } // test test test
 
     @Override
     public void execute(final String args) {
